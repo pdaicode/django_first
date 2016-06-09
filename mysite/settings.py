@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# typically, os.path.join(os.path.dirname(__file__), 'media')
+MEDIA_ROOT = '/Users\Peng\Dropbox\jobs_share\django_online_win\media'
+MEDIA_URL = '/media/'
 
 # Application definition
 
