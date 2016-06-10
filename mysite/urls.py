@@ -19,4 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'', include('blog.urls')),
+	#url(r'^developing/',include('developing.urls')),
+	url(r'^developing', include('developing.urls')),
+   #url(r'', include('blog.urls')),
 ]
